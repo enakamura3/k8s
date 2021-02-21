@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mongodb-svc
+  labels:
+    svc: mongodb-svc
+  namespace: mongo
+spec:
+  selector:
+    pod: mongodb
+  ports:
+  - name: tcp
+    port: 27017
+    protocol: TCP
+    targetPort: 27017
+  type: ClusterIP
