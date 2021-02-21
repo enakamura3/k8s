@@ -143,7 +143,6 @@ NAME       STATUS   ROLES                  AGE   VERSION   INTERNAL-IP    EXTERN
 minikube   Ready    control-plane,master   15d   v1.20.2   192.168.49.2   <none>        Ubuntu 20.04.1 LTS   5.8.0-7642-generic   docker://20.10.2
 ```
 
-Access: 
+Access the URL: 
 
 > http://192.168.49.2:30000
-
