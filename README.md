@@ -61,8 +61,6 @@ status: {}
 kubectl create service clusterip sample-svc --tcp=27017:27017 --dry-run -o yaml
 ```
 
-out:
-
 ```yaml
 apiVersion: v1
 kind: Service
